@@ -1,4 +1,4 @@
-# Github repo getter
+# Github public repositories client
 Simple API service to check user repositories and branches.
 ## How to run
 **Requierments**  
