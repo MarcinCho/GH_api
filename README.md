@@ -1,5 +1,5 @@
 # Github public repositories client
-Simple API service to check user repositories and branches.
+Simple API service to check user public repositories and branches.
 ## How to run
 **Requierments**  
 Java 21  
