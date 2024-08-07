@@ -1,5 +1,7 @@
 package org.marcho;
 
+import java.util.List;
+
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import org.marcho.dto.Branch;
@@ -9,10 +11,7 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
-import java.util.List;
-
 @RegisterRestClient(baseUri = "https://api.github.com/")
-// @ClientHeaderParam(name = "a", value = "b ")
 public interface GitHubApiClient {
 
         @GET
