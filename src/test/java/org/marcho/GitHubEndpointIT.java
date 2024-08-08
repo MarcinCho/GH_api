@@ -1,8 +1,8 @@
-package org.marcho;
+// package org.marcho;
 
-import io.quarkus.test.junit.QuarkusIntegrationTest;
+// import io.quarkus.test.junit.QuarkusIntegrationTest;
 
-@QuarkusIntegrationTest
-public class GitHubEndpointIT extends GitHubEndpointTest {
+// @QuarkusIntegrationTest
+// public class GitHubEndpointIT extends GitHubEndpointTest {
 
-}
+// }

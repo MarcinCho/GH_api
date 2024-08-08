@@ -1,4 +1,4 @@
-package org.marcho;
+package org.marcho.repository;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
 @RegisterRestClient(baseUri = "https://api.github.com/")
-public interface GitHubApiClient {
+public interface IGitHubRepository {
 
         @GET
         @Path("/users/{username}/repos")
