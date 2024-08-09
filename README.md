@@ -7,7 +7,7 @@ Maven >= 3.8.6
 
 1. Clone the repository
 ```bash
-git clone https://github.com/MarcinCho/GH_api.git
+git clone https://github.com/MarcinCho/gh_api.git
 
 ```
 2. Change working directory
@@ -32,10 +32,10 @@ Create Docker image:
 ./mvnw package -Dnative -Dquarkus.native.container-build=true
 
 # next create Docker img
-docker build -f src/main/docker/Dockerfile.native -t quarkus/GH_api .
+docker build -f src/main/docker/Dockerfile.native -t quarkus/gh_api .
 
 # run Docker img
-docker run -i --rm -p 8080:8080 quarkus/GH_api
+docker run -i --rm -p 8080:8080 quarkus/gh_api
 ```
 
 
